@@ -1,0 +1,13 @@
+tensorflow==2.15.0
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+streamlit==1.38.0
+matplotlib==3.9.2
+seaborn==0.13.2
+watchdog==4.0.1
+protobuf==4.25.3
+
+# Block jax to avoid AVX issues on macOS ARM
+jax==0.0.0
+jaxlib==0.0.0
